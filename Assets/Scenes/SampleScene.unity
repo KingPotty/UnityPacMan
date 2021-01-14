@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 63441454}
   - component: {fileID: 63441457}
   m_Layer: 0
-  m_Name: Wall (9.9)
+  m_Name: Junction (9.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,10 +150,10 @@ Transform:
   m_GameObject: {fileID: 63441452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: -4.49, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 468032991}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &63441454
 BoxCollider:
@@ -186,7 +186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -231,10 +231,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &77944252
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +245,7 @@ GameObject:
   - component: {fileID: 77944254}
   - component: {fileID: 77944257}
   m_Layer: 0
-  m_Name: Wall (2.3)
+  m_Name: Junction (2.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -263,11 +259,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77944252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: 2.24, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &77944254
 BoxCollider:
@@ -300,7 +296,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -345,10 +341,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &83672230
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +355,7 @@ GameObject:
   - component: {fileID: 83672232}
   - component: {fileID: 83672235}
   m_Layer: 0
-  m_Name: Wall (2.0)
+  m_Name: Junction (2.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -378,10 +370,10 @@ Transform:
   m_GameObject: {fileID: 83672230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &83672232
 BoxCollider:
@@ -414,7 +406,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -459,10 +451,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &96619539
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +465,7 @@ GameObject:
   - component: {fileID: 96619541}
   - component: {fileID: 96619544}
   m_Layer: 0
-  m_Name: Wall (0.5)
+  m_Name: Junction (0.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,9 +480,9 @@ Transform:
   m_GameObject: {fileID: 96619539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &96619541
@@ -528,7 +516,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -573,10 +561,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &108644437
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +575,7 @@ GameObject:
   - component: {fileID: 108644439}
   - component: {fileID: 108644442}
   m_Layer: 0
-  m_Name: Wall (5.3)
+  m_Name: Junction (5.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -605,11 +589,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108644437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -0.65, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: -0.65, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1764595118}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &108644439
 BoxCollider:
@@ -642,7 +626,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -687,10 +671,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &124039618
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +685,7 @@ GameObject:
   - component: {fileID: 124039620}
   - component: {fileID: 124039623}
   m_Layer: 0
-  m_Name: Wall (2.5)
+  m_Name: Junction (2.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -720,10 +700,10 @@ Transform:
   m_GameObject: {fileID: 124039618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 4
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &124039620
 BoxCollider:
@@ -756,7 +736,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -801,44 +781,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &182792628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182792629}
-  m_Layer: 0
-  m_Name: Row 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &182792629
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182792628}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2088828818}
-  - {fileID: 308973293}
-  - {fileID: 2025938814}
-  - {fileID: 1024188811}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278717575
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,7 +795,7 @@ GameObject:
   - component: {fileID: 278717577}
   - component: {fileID: 278717580}
   m_Layer: 0
-  m_Name: Wall (7.2)
+  m_Name: Junction (7.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,10 +810,10 @@ Transform:
   m_GameObject: {fileID: 278717575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &278717577
 BoxCollider:
@@ -904,7 +846,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -949,10 +891,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &308973292
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +905,7 @@ GameObject:
   - component: {fileID: 308973294}
   - component: {fileID: 308973297}
   m_Layer: 0
-  m_Name: Wall (3.4)
+  m_Name: Junction (3.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -981,11 +919,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308973292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.488, y: 1.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -0.488, y: 1.28, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 182792629}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &308973294
 BoxCollider:
@@ -1018,7 +956,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1063,10 +1001,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &313849446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1015,7 @@ GameObject:
   - component: {fileID: 313849448}
   - component: {fileID: 313849451}
   m_Layer: 0
-  m_Name: Wall (8.6)
+  m_Name: Junction (8.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1095,11 +1029,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313849446}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 6
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &313849448
 BoxCollider:
@@ -1132,7 +1066,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1177,10 +1111,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &319538047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1125,7 @@ GameObject:
   - component: {fileID: 319538049}
   - component: {fileID: 319538052}
   m_Layer: 0
-  m_Name: Wall (0.9)
+  m_Name: Junction (0.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1210,9 +1140,9 @@ Transform:
   m_GameObject: {fileID: 319538047}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &319538049
@@ -1246,7 +1176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1291,10 +1221,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &336125228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,16 +1248,70 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1930370099}
-  - {fileID: 1817944074}
-  - {fileID: 1117117722}
-  - {fileID: 182792629}
-  - {fileID: 1718196401}
-  - {fileID: 1764595118}
-  - {fileID: 1035411777}
-  - {fileID: 1881197247}
-  - {fileID: 933324145}
-  - {fileID: 468032991}
+  - {fileID: 1587383793}
+  - {fileID: 1595478287}
+  - {fileID: 469874498}
+  - {fileID: 96619540}
+  - {fileID: 859576419}
+  - {fileID: 319538048}
+  - {fileID: 902580416}
+  - {fileID: 1984519811}
+  - {fileID: 983498636}
+  - {fileID: 1175051459}
+  - {fileID: 2122100119}
+  - {fileID: 1526464773}
+  - {fileID: 1860071906}
+  - {fileID: 1382391420}
+  - {fileID: 83672231}
+  - {fileID: 934380751}
+  - {fileID: 77944253}
+  - {fileID: 578094501}
+  - {fileID: 124039619}
+  - {fileID: 1594945536}
+  - {fileID: 1156366281}
+  - {fileID: 1562305527}
+  - {fileID: 2088828818}
+  - {fileID: 308973293}
+  - {fileID: 2025938814}
+  - {fileID: 1024188811}
+  - {fileID: 472069728}
+  - {fileID: 1319122804}
+  - {fileID: 1293052650}
+  - {fileID: 1731541633}
+  - {fileID: 108644438}
+  - {fileID: 1429211663}
+  - {fileID: 1906527751}
+  - {fileID: 869797124}
+  - {fileID: 908078514}
+  - {fileID: 361263113}
+  - {fileID: 1840152801}
+  - {fileID: 1253688088}
+  - {fileID: 2136083798}
+  - {fileID: 491377772}
+  - {fileID: 1380935110}
+  - {fileID: 2013336142}
+  - {fileID: 278717576}
+  - {fileID: 1037577983}
+  - {fileID: 2060208794}
+  - {fileID: 1486675751}
+  - {fileID: 1717432291}
+  - {fileID: 1239205964}
+  - {fileID: 1643187299}
+  - {fileID: 1558643005}
+  - {fileID: 1281385042}
+  - {fileID: 1088237478}
+  - {fileID: 787224468}
+  - {fileID: 1976974664}
+  - {fileID: 1135260466}
+  - {fileID: 1020804467}
+  - {fileID: 313849447}
+  - {fileID: 691370568}
+  - {fileID: 1976533525}
+  - {fileID: 553278564}
+  - {fileID: 730807372}
+  - {fileID: 588245425}
+  - {fileID: 455375879}
+  - {fileID: 63441453}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1349,7 +1329,7 @@ GameObject:
   - component: {fileID: 361263114}
   - component: {fileID: 361263117}
   m_Layer: 0
-  m_Name: Wall (6.4)
+  m_Name: Junction (6.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1364,10 +1344,10 @@ Transform:
   m_GameObject: {fileID: 361263112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &361263114
 BoxCollider:
@@ -1400,7 +1380,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1445,10 +1425,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &445364655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1520,7 @@ GameObject:
   - component: {fileID: 455375880}
   - component: {fileID: 455375883}
   m_Layer: 0
-  m_Name: Wall (9.5)
+  m_Name: Junction (9.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1559,10 +1535,10 @@ Transform:
   m_GameObject: {fileID: 455375878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: -4.49, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 468032991}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &455375880
 BoxCollider:
@@ -1595,7 +1571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1640,44 +1616,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &468032990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 468032991}
-  m_Layer: 0
-  m_Name: Row 9
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &468032991
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468032990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 730807372}
-  - {fileID: 588245425}
-  - {fileID: 455375879}
-  - {fileID: 63441453}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469874497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,7 +1630,7 @@ GameObject:
   - component: {fileID: 469874499}
   - component: {fileID: 469874502}
   m_Layer: 0
-  m_Name: Wall (0.4)
+  m_Name: Junction (0.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1707,9 +1645,9 @@ Transform:
   m_GameObject: {fileID: 469874497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &469874499
@@ -1743,7 +1681,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1788,10 +1726,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &472069727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +1740,7 @@ GameObject:
   - component: {fileID: 472069729}
   - component: {fileID: 472069732}
   m_Layer: 0
-  m_Name: Wall (4.2)
+  m_Name: Junction (4.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1821,10 +1755,10 @@ Transform:
   m_GameObject: {fileID: 472069727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1718196401}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &472069729
 BoxCollider:
@@ -1857,7 +1791,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1902,10 +1836,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &491377771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,7 +1850,7 @@ GameObject:
   - component: {fileID: 491377773}
   - component: {fileID: 491377776}
   m_Layer: 0
-  m_Name: Wall (6.9)
+  m_Name: Junction (6.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,10 +1865,10 @@ Transform:
   m_GameObject: {fileID: 491377771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 7
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &491377773
 BoxCollider:
@@ -1971,7 +1901,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2016,10 +1946,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,7 +2043,7 @@ GameObject:
   - component: {fileID: 553278565}
   - component: {fileID: 553278568}
   m_Layer: 0
-  m_Name: Wall (8.9)
+  m_Name: Junction (8.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2131,11 +2057,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553278563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.01, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 4.01, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 9
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &553278565
 BoxCollider:
@@ -2168,7 +2094,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2213,10 +2139,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &578094500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,7 +2153,7 @@ GameObject:
   - component: {fileID: 578094502}
   - component: {fileID: 578094505}
   m_Layer: 0
-  m_Name: Wall (2.4)
+  m_Name: Junction (2.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,10 +2168,10 @@ Transform:
   m_GameObject: {fileID: 578094500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &578094502
 BoxCollider:
@@ -2282,7 +2204,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2327,10 +2249,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &588245424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,7 +2263,7 @@ GameObject:
   - component: {fileID: 588245426}
   - component: {fileID: 588245429}
   m_Layer: 0
-  m_Name: Wall (9.4)
+  m_Name: Junction (9.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2360,10 +2278,10 @@ Transform:
   m_GameObject: {fileID: 588245424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: -4.49, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 468032991}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &588245426
 BoxCollider:
@@ -2396,7 +2314,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2441,10 +2359,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &691370567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,7 +2373,7 @@ GameObject:
   - component: {fileID: 691370569}
   - component: {fileID: 691370572}
   m_Layer: 0
-  m_Name: Wall (8.7)
+  m_Name: Junction (8.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2473,11 +2387,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691370567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.41, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 2.41, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 7
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &691370569
 BoxCollider:
@@ -2510,7 +2424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2555,10 +2469,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &700811803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,7 +2589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700811803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.65, z: 1}
+  m_LocalPosition: {x: 0, y: -0.65, z: 0.9}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2699,7 +2609,7 @@ GameObject:
   - component: {fileID: 730807373}
   - component: {fileID: 730807376}
   m_Layer: 0
-  m_Name: Wall (9.0)
+  m_Name: Junction (9.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2714,10 +2624,10 @@ Transform:
   m_GameObject: {fileID: 730807371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: -4.49, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 468032991}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &730807373
 BoxCollider:
@@ -2750,7 +2660,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2795,10 +2705,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &787224467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2719,7 @@ GameObject:
   - component: {fileID: 787224469}
   - component: {fileID: 787224472}
   m_Layer: 0
-  m_Name: Wall (8.2)
+  m_Name: Junction (8.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2827,11 +2733,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787224467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.41, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -2.41, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &787224469
 BoxCollider:
@@ -2864,7 +2770,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2909,10 +2815,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &859576418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,7 +2829,7 @@ GameObject:
   - component: {fileID: 859576420}
   - component: {fileID: 859576423}
   m_Layer: 0
-  m_Name: Wall (0.7)
+  m_Name: Junction (0.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2942,9 +2844,9 @@ Transform:
   m_GameObject: {fileID: 859576418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &859576420
@@ -2978,7 +2880,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3023,10 +2925,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &869797123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,7 +2939,7 @@ GameObject:
   - component: {fileID: 869797125}
   - component: {fileID: 869797128}
   m_Layer: 0
-  m_Name: Wall (6.2)
+  m_Name: Junction (6.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3056,10 +2954,10 @@ Transform:
   m_GameObject: {fileID: 869797123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &869797125
 BoxCollider:
@@ -3092,7 +2990,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3137,10 +3035,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &902580415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,7 +3049,7 @@ GameObject:
   - component: {fileID: 902580417}
   - component: {fileID: 902580420}
   m_Layer: 0
-  m_Name: Wall (1.0)
+  m_Name: Junction (1.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3170,10 +3064,10 @@ Transform:
   m_GameObject: {fileID: 902580415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &902580417
 BoxCollider:
@@ -3206,7 +3100,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3251,10 +3145,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &908078513
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,7 +3159,7 @@ GameObject:
   - component: {fileID: 908078515}
   - component: {fileID: 908078518}
   m_Layer: 0
-  m_Name: Wall (6.3)
+  m_Name: Junction (6.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3283,11 +3173,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908078513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: -1.62, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &908078515
 BoxCollider:
@@ -3320,7 +3210,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3365,50 +3255,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &933324144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 933324145}
-  m_Layer: 0
-  m_Name: Row 8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &933324145
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933324144}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1281385042}
-  - {fileID: 1088237478}
-  - {fileID: 787224468}
-  - {fileID: 1976974664}
-  - {fileID: 1135260466}
-  - {fileID: 1020804467}
-  - {fileID: 313849447}
-  - {fileID: 691370568}
-  - {fileID: 1976533525}
-  - {fileID: 553278564}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934380750
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,7 +3269,7 @@ GameObject:
   - component: {fileID: 934380752}
   - component: {fileID: 934380755}
   m_Layer: 0
-  m_Name: Wall (2.2)
+  m_Name: Junction (2.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3438,10 +3284,10 @@ Transform:
   m_GameObject: {fileID: 934380750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &934380752
 BoxCollider:
@@ -3474,7 +3320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3519,10 +3365,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &983498635
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,7 +3379,7 @@ GameObject:
   - component: {fileID: 983498637}
   - component: {fileID: 983498640}
   m_Layer: 0
-  m_Name: Wall (1.3)
+  m_Name: Junction (1.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3551,11 +3393,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983498635}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: 3.21, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &983498637
 BoxCollider:
@@ -3588,7 +3430,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3633,10 +3475,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1020804466
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,7 +3489,7 @@ GameObject:
   - component: {fileID: 1020804468}
   - component: {fileID: 1020804471}
   m_Layer: 0
-  m_Name: Wall (8.5)
+  m_Name: Junction (8.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3665,11 +3503,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020804466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 0.48, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 5
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1020804468
 BoxCollider:
@@ -3702,7 +3540,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3747,10 +3585,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1024188810
 GameObject:
   m_ObjectHideFlags: 0
@@ -3765,7 +3599,7 @@ GameObject:
   - component: {fileID: 1024188812}
   - component: {fileID: 1024188815}
   m_Layer: 0
-  m_Name: Wall (3.7)
+  m_Name: Junction (3.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3779,11 +3613,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024188810}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: 1.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: 1.28, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 182792629}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1024188812
 BoxCollider:
@@ -3816,7 +3650,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3861,48 +3695,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1035411776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1035411777}
-  m_Layer: 0
-  m_Name: Row 6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1035411777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035411776}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1906527751}
-  - {fileID: 869797124}
-  - {fileID: 908078514}
-  - {fileID: 361263113}
-  - {fileID: 1840152801}
-  - {fileID: 1253688088}
-  - {fileID: 2136083798}
-  - {fileID: 491377772}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037577982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,7 +3709,7 @@ GameObject:
   - component: {fileID: 1037577984}
   - component: {fileID: 1037577987}
   m_Layer: 0
-  m_Name: Wall (7.3)
+  m_Name: Junction (7.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3931,11 +3723,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037577982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: -2.57, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1037577984
 BoxCollider:
@@ -3968,7 +3760,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4013,10 +3805,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1088237477
 GameObject:
   m_ObjectHideFlags: 0
@@ -4031,7 +3819,7 @@ GameObject:
   - component: {fileID: 1088237479}
   - component: {fileID: 1088237482}
   m_Layer: 0
-  m_Name: Wall (8.1)
+  m_Name: Junction (8.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4045,11 +3833,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088237477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.38, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -3.38, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1088237479
 BoxCollider:
@@ -4082,7 +3870,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4127,48 +3915,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1117117721
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1117117722}
-  m_Layer: 0
-  m_Name: Row 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1117117722
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117117721}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 83672231}
-  - {fileID: 934380751}
-  - {fileID: 77944253}
-  - {fileID: 578094501}
-  - {fileID: 124039619}
-  - {fileID: 1594945536}
-  - {fileID: 1156366281}
-  - {fileID: 1562305527}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135260465
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,7 +3929,7 @@ GameObject:
   - component: {fileID: 1135260467}
   - component: {fileID: 1135260470}
   m_Layer: 0
-  m_Name: Wall (8.4)
+  m_Name: Junction (8.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4197,11 +3943,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135260465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.488, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -0.488, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 4
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1135260467
 BoxCollider:
@@ -4234,7 +3980,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4279,10 +4025,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1156366280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4297,7 +4039,7 @@ GameObject:
   - component: {fileID: 1156366282}
   - component: {fileID: 1156366285}
   m_Layer: 0
-  m_Name: Wall (2.7)
+  m_Name: Junction (2.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4312,10 +4054,10 @@ Transform:
   m_GameObject: {fileID: 1156366280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 6
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1156366282
 BoxCollider:
@@ -4348,7 +4090,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4393,10 +4135,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1175051458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,7 +4149,7 @@ GameObject:
   - component: {fileID: 1175051460}
   - component: {fileID: 1175051463}
   m_Layer: 0
-  m_Name: Wall (1.4)
+  m_Name: Junction (1.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4426,10 +4164,10 @@ Transform:
   m_GameObject: {fileID: 1175051458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1175051460
 BoxCollider:
@@ -4462,7 +4200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4507,10 +4245,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1239205963
 GameObject:
   m_ObjectHideFlags: 0
@@ -4525,7 +4259,7 @@ GameObject:
   - component: {fileID: 1239205965}
   - component: {fileID: 1239205968}
   m_Layer: 0
-  m_Name: Wall (7.7)
+  m_Name: Junction (7.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4540,10 +4274,10 @@ Transform:
   m_GameObject: {fileID: 1239205963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 7
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1239205965
 BoxCollider:
@@ -4576,7 +4310,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4621,10 +4355,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1253688087
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,7 +4369,7 @@ GameObject:
   - component: {fileID: 1253688089}
   - component: {fileID: 1253688092}
   m_Layer: 0
-  m_Name: Wall (6.6)
+  m_Name: Junction (6.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4653,11 +4383,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253688087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: -1.62, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 5
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1253688089
 BoxCollider:
@@ -4690,7 +4420,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4735,10 +4465,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1281385041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4753,7 +4479,7 @@ GameObject:
   - component: {fileID: 1281385043}
   - component: {fileID: 1281385046}
   m_Layer: 0
-  m_Name: Wall (8.0)
+  m_Name: Junction (8.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4767,11 +4493,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281385041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.01, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -4.01, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1281385043
 BoxCollider:
@@ -4804,7 +4530,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4849,10 +4575,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1293052649
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,7 +4589,7 @@ GameObject:
   - component: {fileID: 1293052651}
   - component: {fileID: 1293052654}
   m_Layer: 0
-  m_Name: Wall (4.6)
+  m_Name: Junction (4.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4881,11 +4603,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293052649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: 0.3, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1718196401}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1293052651
 BoxCollider:
@@ -4918,7 +4640,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4963,10 +4685,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1319122803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4981,7 +4699,7 @@ GameObject:
   - component: {fileID: 1319122805}
   - component: {fileID: 1319122808}
   m_Layer: 0
-  m_Name: Wall (4.4)
+  m_Name: Junction (4.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4995,11 +4713,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319122803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: 0.3, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1718196401}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1319122805
 BoxCollider:
@@ -5032,7 +4750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5077,10 +4795,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1380935109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,7 +4809,7 @@ GameObject:
   - component: {fileID: 1380935111}
   - component: {fileID: 1380935114}
   m_Layer: 0
-  m_Name: Wall (7.0)
+  m_Name: Junction (7.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5110,10 +4824,10 @@ Transform:
   m_GameObject: {fileID: 1380935109}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1380935111
 BoxCollider:
@@ -5146,7 +4860,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5191,10 +4905,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1382391419
 GameObject:
   m_ObjectHideFlags: 0
@@ -5209,7 +4919,7 @@ GameObject:
   - component: {fileID: 1382391421}
   - component: {fileID: 1382391424}
   m_Layer: 0
-  m_Name: Wall (1.9)
+  m_Name: Junction (1.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5224,10 +4934,10 @@ Transform:
   m_GameObject: {fileID: 1382391419}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 7
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1382391421
 BoxCollider:
@@ -5260,7 +4970,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5305,10 +5015,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1429211662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,7 +5029,7 @@ GameObject:
   - component: {fileID: 1429211664}
   - component: {fileID: 1429211667}
   m_Layer: 0
-  m_Name: Wall (5.6)
+  m_Name: Junction (5.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5337,11 +5043,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429211662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -0.65, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: -0.65, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1764595118}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1429211664
 BoxCollider:
@@ -5374,7 +5080,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5419,10 +5125,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1486675750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,7 +5139,7 @@ GameObject:
   - component: {fileID: 1486675752}
   - component: {fileID: 1486675755}
   m_Layer: 0
-  m_Name: Wall (7.5)
+  m_Name: Junction (7.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5452,10 +5154,10 @@ Transform:
   m_GameObject: {fileID: 1486675750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 5
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1486675752
 BoxCollider:
@@ -5488,7 +5190,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5533,10 +5235,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1526464772
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,7 +5249,7 @@ GameObject:
   - component: {fileID: 1526464774}
   - component: {fileID: 1526464777}
   m_Layer: 0
-  m_Name: Wall (1.6)
+  m_Name: Junction (1.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5565,11 +5263,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526464772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: 3.21, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 5
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1526464774
 BoxCollider:
@@ -5602,7 +5300,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5647,10 +5345,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1558643004
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,7 +5359,7 @@ GameObject:
   - component: {fileID: 1558643006}
   - component: {fileID: 1558643009}
   m_Layer: 0
-  m_Name: Wall (7.9)
+  m_Name: Junction (7.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5680,10 +5374,10 @@ Transform:
   m_GameObject: {fileID: 1558643004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 9
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1558643006
 BoxCollider:
@@ -5716,7 +5410,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5761,10 +5455,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1562305526
 GameObject:
   m_ObjectHideFlags: 0
@@ -5779,7 +5469,7 @@ GameObject:
   - component: {fileID: 1562305528}
   - component: {fileID: 1562305531}
   m_Layer: 0
-  m_Name: Wall (2.9)
+  m_Name: Junction (2.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5794,10 +5484,10 @@ Transform:
   m_GameObject: {fileID: 1562305526}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.01, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 7
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1562305528
 BoxCollider:
@@ -5830,7 +5520,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5875,10 +5565,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1587383792
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,7 +5579,7 @@ GameObject:
   - component: {fileID: 1587383794}
   - component: {fileID: 1587383797}
   m_Layer: 0
-  m_Name: Wall (0.0)
+  m_Name: Junction (0.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5908,9 +5594,9 @@ Transform:
   m_GameObject: {fileID: 1587383792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1587383794
@@ -5944,7 +5630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5989,10 +5675,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1594945535
 GameObject:
   m_ObjectHideFlags: 0
@@ -6007,7 +5689,7 @@ GameObject:
   - component: {fileID: 1594945537}
   - component: {fileID: 1594945540}
   m_Layer: 0
-  m_Name: Wall (2.6)
+  m_Name: Junction (2.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6021,11 +5703,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594945535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: 2.24, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: 2.24, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117117722}
-  m_RootOrder: 5
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1594945537
 BoxCollider:
@@ -6058,7 +5740,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6103,10 +5785,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1595478286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6121,7 +5799,7 @@ GameObject:
   - component: {fileID: 1595478288}
   - component: {fileID: 1595478291}
   m_Layer: 0
-  m_Name: Wall (0.2)
+  m_Name: Junction (0.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6136,9 +5814,9 @@ Transform:
   m_GameObject: {fileID: 1595478286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: 4.48, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1930370099}
+  m_Father: {fileID: 336125229}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1595478288
@@ -6172,7 +5850,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6217,10 +5895,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1643187298
 GameObject:
   m_ObjectHideFlags: 0
@@ -6235,7 +5909,7 @@ GameObject:
   - component: {fileID: 1643187300}
   - component: {fileID: 1643187303}
   m_Layer: 0
-  m_Name: Wall (7.8)
+  m_Name: Junction (7.8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6250,10 +5924,10 @@ Transform:
   m_GameObject: {fileID: 1643187298}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.38, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 8
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1643187300
 BoxCollider:
@@ -6286,7 +5960,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6331,10 +6005,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1717432290
 GameObject:
   m_ObjectHideFlags: 0
@@ -6349,7 +6019,7 @@ GameObject:
   - component: {fileID: 1717432292}
   - component: {fileID: 1717432295}
   m_Layer: 0
-  m_Name: Wall (7.6)
+  m_Name: Junction (7.6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6363,11 +6033,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717432290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 1.44, y: -2.57, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 6
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1717432292
 BoxCollider:
@@ -6400,7 +6070,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6445,44 +6115,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1718196400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1718196401}
-  m_Layer: 0
-  m_Name: Row 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1718196401
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718196400}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 472069728}
-  - {fileID: 1319122804}
-  - {fileID: 1293052650}
-  - {fileID: 1731541633}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731541632
 GameObject:
   m_ObjectHideFlags: 0
@@ -6497,7 +6129,7 @@ GameObject:
   - component: {fileID: 1731541634}
   - component: {fileID: 1731541637}
   m_Layer: 0
-  m_Name: Wall (4.7)
+  m_Name: Junction (4.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6512,10 +6144,10 @@ Transform:
   m_GameObject: {fileID: 1731541632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1718196401}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1731541634
 BoxCollider:
@@ -6548,7 +6180,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6593,80 +6225,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1764595117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764595118}
-  m_Layer: 0
-  m_Name: Row 5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1764595118
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764595117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 108644438}
-  - {fileID: 1429211663}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1817944073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817944074}
-  m_Layer: 0
-  m_Name: Row 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1817944074
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817944073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 902580416}
-  - {fileID: 1984519811}
-  - {fileID: 983498636}
-  - {fileID: 1175051459}
-  - {fileID: 2122100119}
-  - {fileID: 1526464773}
-  - {fileID: 1860071906}
-  - {fileID: 1382391420}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1840152800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6681,7 +6239,7 @@ GameObject:
   - component: {fileID: 1840152802}
   - component: {fileID: 1840152805}
   m_Layer: 0
-  m_Name: Wall (6.5)
+  m_Name: Junction (6.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6696,10 +6254,10 @@ Transform:
   m_GameObject: {fileID: 1840152800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 4
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1840152802
 BoxCollider:
@@ -6732,7 +6290,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6777,10 +6335,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1860071905
 GameObject:
   m_ObjectHideFlags: 0
@@ -6795,7 +6349,7 @@ GameObject:
   - component: {fileID: 1860071907}
   - component: {fileID: 1860071910}
   m_Layer: 0
-  m_Name: Wall (1.7)
+  m_Name: Junction (1.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6810,10 +6364,10 @@ Transform:
   m_GameObject: {fileID: 1860071905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 6
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1860071907
 BoxCollider:
@@ -6846,7 +6400,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6891,50 +6445,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1881197246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1881197247}
-  m_Layer: 0
-  m_Name: Row 7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1881197247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881197246}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1380935110}
-  - {fileID: 2013336142}
-  - {fileID: 278717576}
-  - {fileID: 1037577983}
-  - {fileID: 2060208794}
-  - {fileID: 1486675751}
-  - {fileID: 1717432291}
-  - {fileID: 1239205964}
-  - {fileID: 1643187299}
-  - {fileID: 1558643005}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906527750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6949,7 +6459,7 @@ GameObject:
   - component: {fileID: 1906527752}
   - component: {fileID: 1906527755}
   m_Layer: 0
-  m_Name: Wall (6.0)
+  m_Name: Junction (6.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6964,10 +6474,10 @@ Transform:
   m_GameObject: {fileID: 1906527750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1906527752
 BoxCollider:
@@ -7000,7 +6510,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7045,46 +6555,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
---- !u!1 &1930370098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1930370099}
-  m_Layer: 0
-  m_Name: Row 0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1930370099
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930370098}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1587383793}
-  - {fileID: 1595478287}
-  - {fileID: 469874498}
-  - {fileID: 96619540}
-  - {fileID: 859576419}
-  - {fileID: 319538048}
-  m_Father: {fileID: 336125229}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1976533524
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,7 +6569,7 @@ GameObject:
   - component: {fileID: 1976533526}
   - component: {fileID: 1976533529}
   m_Layer: 0
-  m_Name: Wall (8.8)
+  m_Name: Junction (8.8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7113,11 +6583,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976533524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.38, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 3.38, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 8
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1976533526
 BoxCollider:
@@ -7150,7 +6620,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7195,10 +6665,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1976974663
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,7 +6679,7 @@ GameObject:
   - component: {fileID: 1976974665}
   - component: {fileID: 1976974668}
   m_Layer: 0
-  m_Name: Wall (8.3)
+  m_Name: Junction (8.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7227,11 +6693,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976974663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: -3.52, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 933324145}
-  m_RootOrder: 3
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1976974665
 BoxCollider:
@@ -7264,7 +6730,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7309,10 +6775,6 @@ MonoBehaviour:
   down: 0
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &1984519810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7327,7 +6789,7 @@ GameObject:
   - component: {fileID: 1984519812}
   - component: {fileID: 1984519815}
   m_Layer: 0
-  m_Name: Wall (1.2)
+  m_Name: Junction (1.2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7342,10 +6804,10 @@ Transform:
   m_GameObject: {fileID: 1984519810}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.41, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1984519812
 BoxCollider:
@@ -7378,7 +6840,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7423,10 +6885,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2013336141
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,7 +6899,7 @@ GameObject:
   - component: {fileID: 2013336143}
   - component: {fileID: 2013336146}
   m_Layer: 0
-  m_Name: Wall (7.1)
+  m_Name: Junction (7.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7456,10 +6914,10 @@ Transform:
   m_GameObject: {fileID: 2013336141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.38, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 1
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2013336143
 BoxCollider:
@@ -7492,7 +6950,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7537,10 +6995,6 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 0
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2025938813
 GameObject:
   m_ObjectHideFlags: 0
@@ -7555,7 +7009,7 @@ GameObject:
   - component: {fileID: 2025938815}
   - component: {fileID: 2025938818}
   m_Layer: 0
-  m_Name: Wall (3.5)
+  m_Name: Junction (3.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7569,11 +7023,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025938813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 1.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 0.48, y: 1.28, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 182792629}
-  m_RootOrder: 2
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2025938815
 BoxCollider:
@@ -7606,7 +7060,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7651,10 +7105,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2060208793
 GameObject:
   m_ObjectHideFlags: 0
@@ -7669,7 +7119,7 @@ GameObject:
   - component: {fileID: 2060208795}
   - component: {fileID: 2060208798}
   m_Layer: 0
-  m_Name: Wall (7.4)
+  m_Name: Junction (7.4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7684,10 +7134,10 @@ Transform:
   m_GameObject: {fileID: 2060208793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.488, y: -2.57, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1881197247}
-  m_RootOrder: 4
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2060208795
 BoxCollider:
@@ -7720,7 +7170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7765,10 +7215,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2088828817
 GameObject:
   m_ObjectHideFlags: 0
@@ -7783,7 +7229,7 @@ GameObject:
   - component: {fileID: 2088828819}
   - component: {fileID: 2088828822}
   m_Layer: 0
-  m_Name: Wall (3.3)
+  m_Name: Junction (3.3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7797,11 +7243,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088828817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: 1.3, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.44, y: 1.28, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 182792629}
-  m_RootOrder: 0
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2088828819
 BoxCollider:
@@ -7834,7 +7280,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7879,10 +7325,6 @@ MonoBehaviour:
   down: 1
   left: 0
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2122100118
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,7 +7339,7 @@ GameObject:
   - component: {fileID: 2122100120}
   - component: {fileID: 2122100123}
   m_Layer: 0
-  m_Name: Wall (1.5)
+  m_Name: Junction (1.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7912,10 +7354,10 @@ Transform:
   m_GameObject: {fileID: 2122100118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: 3.21, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1817944074}
-  m_RootOrder: 4
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2122100120
 BoxCollider:
@@ -7948,7 +7390,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7993,10 +7435,6 @@ MonoBehaviour:
   down: 0
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}
 --- !u!1 &2136083797
 GameObject:
   m_ObjectHideFlags: 0
@@ -8011,7 +7449,7 @@ GameObject:
   - component: {fileID: 2136083799}
   - component: {fileID: 2136083802}
   m_Layer: 0
-  m_Name: Wall (6.7)
+  m_Name: Junction (6.7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8026,10 +7464,10 @@ Transform:
   m_GameObject: {fileID: 2136083797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: -1.62, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1035411777}
-  m_RootOrder: 6
+  m_Father: {fileID: 336125229}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2136083799
 BoxCollider:
@@ -8062,7 +7500,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99e2d0fb024e9ac46aefd2161f4cd2e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8107,7 +7545,3 @@ MonoBehaviour:
   down: 1
   left: 1
   right: 1
-  junctionUp: {fileID: 0}
-  junctionDown: {fileID: 0}
-  junctionLeft: {fileID: 0}
-  junctionRight: {fileID: 0}

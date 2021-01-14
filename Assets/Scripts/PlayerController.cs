@@ -54,7 +54,6 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void OnTriggerEnter (Collider collision) {
-        print(collision.gameObject.name);
         if (!collision.gameObject.name.StartsWith("Cube")) {
             print("fuck");
             return;
